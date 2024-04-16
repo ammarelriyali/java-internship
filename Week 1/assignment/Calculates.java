@@ -1,5 +1,4 @@
 public class Calculates {
-
 	public static void main (String[] args) {
 		int numberOne  = Integer.parseInt(args[0]);
 		int numberTwo = Integer.parseInt(args[1]);
