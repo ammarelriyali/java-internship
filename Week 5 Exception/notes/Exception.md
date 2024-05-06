@@ -7,9 +7,9 @@ classDiagram
       Error <|-- VirtualMachineError
       Error <|-- OutOfMemoryError
       Exception <|-- IOException
-        Error <|-- SQLException
-         Error <|-- ClassNotFound Exception
-          Error <|-- RuntimeException
+        Exception <|-- SQLException
+         Exception <|-- ClassNotFound Exception
+          Exception <|-- RuntimeException
         RuntimeException <|-- ArithmeticException
           RuntimeException <|-- NullPointerException
           RuntimeException <|-- NumberFormatException
